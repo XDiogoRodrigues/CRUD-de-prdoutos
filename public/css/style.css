@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  margin-left: 1em;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+a:hover {
+  background-color: rgb(192, 187, 187);
+  transition: 1.5s;
+  border-radius: 5px;
+}

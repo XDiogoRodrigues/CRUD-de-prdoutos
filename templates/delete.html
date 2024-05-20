@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Delete product!</h1>
+    <form action="/connectionSql/delete_product" method="post">
+      <input
+        type="text"
+        name="product_delete"
+        placeholder="Digite o nome do produto"
+      />
+      <input type="submit" value="Deletar" />
+    </form>
+
+    <a href="/products/home">Voltar para inicio</a>
+  </body>
+</html>
